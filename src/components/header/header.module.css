@@ -20,8 +20,14 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-size: 30px;
+    transition: tranform 0.3s ease, tesx-shadow 0.3s ease;
 }
 
+.header p:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,255,255,0.6);
+}
 .arrow{
     margin-left: 10px;
 }
