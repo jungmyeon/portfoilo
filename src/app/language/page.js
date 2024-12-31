@@ -13,11 +13,13 @@ const imglan = [
 const imgfront = [
     {src: 'HTML1.webp', title:'HTML'},
     {src: 'CSS.webp', title:'CSS'},
-    {src: 'React.webp', title:'React'}
+    {src: 'React.webp', title:'React'},
+    {src:'JSP.jpg', title:'JSP'}
 ]
 
 const imgback = [
-    {src: 'NODEJS.webp', title:'NodeJS'}
+    {src: 'NODEJS.webp', title:'NodeJS'},
+    {src: 'Spring.jpg', title:'Spring'}
 ]
 
 const imgdata = [
@@ -28,7 +30,8 @@ const imgtool = [
     {src: 'Slack.png', title:'Slack'},
     {src: 'github.png', title: 'Git Hub'},
     {src: 'PS.webp', title: 'Photo Shop'},
-    {src: 'Notion.png', title: 'Notion'}
+    {src: 'Notion.png', title: 'Notion'},
+    {src: 'Figma.jpg', title: 'Figma'}
 ]
 
 const imgdepoly = [
