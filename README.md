@@ -3,7 +3,6 @@
 
 
 👋 Intro  
-
 안녕하세요! "항상 다양한 개발을 추구하는 개발자" 이정면입니다!
 개발자가 되기 위하여 학원에서 6개월동안 프론트엔드의 역량을 길렀고, 
 국비 교육을 통해 6개월동안 백엔드 역량을 키웠습니다.
@@ -82,7 +81,5 @@ Skill : flask, mongoDB
 
 
 📞 Contact
-
 이메일 : zhzsks123@daum.net
-
 깃허브 : https://github.com/jungmyeon
