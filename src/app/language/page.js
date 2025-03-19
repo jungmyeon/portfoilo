@@ -23,7 +23,8 @@ const imgback = [
 ]
 
 const imgdata = [
-    {src: 'mongoDB.webp', title:'MongDB'}
+    {src: 'mongoDB.webp', title:'MongDB'},
+    {src: 'MySQL.png', title: 'MySQL'}
 ]
 
 const imgtool = [
@@ -31,7 +32,8 @@ const imgtool = [
     {src: 'github.png', title: 'Git Hub'},
     {src: 'PS.webp', title: 'Photo Shop'},
     {src: 'Notion.png', title: 'Notion'},
-    {src: 'Figma.jpg', title: 'Figma'}
+    {src: 'Figma.jpg', title: 'Figma'},
+    {src: 'ERD.png', title: 'ERD Cloud'}
 ]
 
 const imgdepoly = [
@@ -67,10 +69,10 @@ export default function Language(){
     };
 
     const handleNextImagedata = ()=>{
-        setCurrentIndex4((prevIndex)=>(prevIndex +1) % imgback.length);
+        setCurrentIndex4((prevIndex)=>(prevIndex +1) % imgdata.length);
     };
     const handlePrevImagedata = ()=>{
-        setCurrentIndex4((prevIndex)=>(prevIndex -1 + imgback.length) % imgback.length);
+        setCurrentIndex4((prevIndex)=>(prevIndex -1 + imgdata.length) % imgback.length);
     };
 
     const handleNextImagetool = ()=>{
